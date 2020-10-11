@@ -1,0 +1,24 @@
+:root {
+    --main-bck-color: #1F6764; 
+    --main-font-fam: 'Averia Gruesa Libre', cursive;
+    --bck-color-font: white;
+}
+
+body {
+    background-color: var(--main-bck-color);
+    font-family: var(--main-font-fam);
+    color: var(--bck-color-font);
+}
+
+h1 {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+}
+
+img {
+    display: inline-flex;
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(5px 4px 5px white);
+}
